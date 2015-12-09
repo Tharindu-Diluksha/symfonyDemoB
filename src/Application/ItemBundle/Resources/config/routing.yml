@@ -1,0 +1,7 @@
+application_item_homepage:
+    path:     /
+    defaults: { _controller: ApplicationItemBundle:Default:index }
+
+application_item_aboutpage:
+    path:     /about
+    defaults: { _controller: ApplicationItemBundle:Default:about }
